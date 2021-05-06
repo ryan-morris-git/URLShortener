@@ -66,7 +66,3 @@ def redirection(short_url):
         return redirect(long_url.long)
     else:
         return f"<h1>URL does not exist</h1>"
-
-#Running the application
-if __name__ == '__main__':
-    app.run(port=5000, debug=True)
