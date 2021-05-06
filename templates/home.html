@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Ryan's URL Shortener{% endblock %}
+
+{% block content %}
+<form action = "#", method = "post">
+    <input type = "url" name = "nm" id = "url"
+        placeholder = "Enter a URL"
+        pattern = "https://.*" size = "50"
+        required>
+    <br>
+    <input id = "shortenButton" type = "submit" value = "Shorten That URL">
+</form>
+{% endblock %}

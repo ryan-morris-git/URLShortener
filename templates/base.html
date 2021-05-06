@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{% block title %}{% endblock %}</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    </head>
+    <body>
+        <div>
+            <h1>Ryan's URL Shortener</h1>
+            <hr>
+            {% block content %}
+            {% endblock %}
+        </div>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-image: url("https://background-tiles.com/overview/white/patterns/large/1018.png");
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+}
+
+#url {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 12px;
+    font-size: large;
+    border-radius: 8px;
+}
+
+#shortenButton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    background-color: lightgreen;
+    border-color: lightgreen;
+    border-radius: 8px;
+    font-size: medium;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    padding: 8px;
+    border: 1px solid lightgreen;
+    border-radius: 8px;
+    background-color: lightgreen;
+    color: black;
+    font-weight: bold;
+}
